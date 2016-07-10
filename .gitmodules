@@ -1,0 +1,3 @@
+[submodule "MexConv3D"]
+	path = MexConv3D
+	url = https://github.com/pengsun/MexConv3D.git
