@@ -21,7 +21,7 @@ If you find the code useful for your research, please cite our paper:
 The code was tested on Ubuntu 14.04 and Windows 10 using MATLAB R2015b and
  NVIDIA Titan X or Z GPUs. 
 
-If you have any question regarding the implementation please contact:
+If you have questions regarding the implementation please contact:
 
     Christoph Feichtenhofer <feichtenhofer AT tugraz.at>
 
@@ -47,18 +47,18 @@ please follow the [installation](http://www.vlfeat.org/matconvnet/install/) inst
 - In case you encounter memory issues on your GPU, consider decreasing the ```cudnnWorkspaceLimit``` (512MB is default)
 
 # Pretrained models
-- Spatial network for UCF101 [(split1)](https://onedrive.live.com/download?cid=33A1ED4EC8B18772&resid=33A1ED4EC8B18772%212599&authkey=AG3_r8emQp4u48Q)
-- Temporal network for UCF101 [(split1)](https://onedrive.live.com/download?cid=33A1ED4EC8B18772&resid=33A1ED4EC8B18772%212598&authkey=ANlPdgrnlvlllwo)
+- Spatial network for UCF101 [(split1)](http://ftp.tugraz.at/pub/feichtenhofer/tsfusion/models/ucf101-img-vgg16-split1-dr0.85.mat)
+- Temporal network for UCF101 [(split1)](http://ftp.tugraz.at/pub/feichtenhofer/tsfusion/models/ucf101-TVL1flow-vgg16-split1-dr0.9.mat)
 
 # Data
 Pre-computed optical flow images and resized rgb frames for the [UCF101](http://crcv.ucf.edu/data/UCF101.php) and [HMDB51](http://serre-lab.clps.brown.edu/resource/hmdb-a-large-human-motion-database/) datasets
-- UCF101 RGB: [part1](https://onedrive.live.com/download?cid=33A1ED4EC8B18772&resid=33A1ED4EC8B18772%2169239&authkey=AMud4iWYdgCtywU)
-[part2](https://onedrive.live.com/download?cid=33A1ED4EC8B18772&resid=33A1ED4EC8B18772%2169240&authkey=AMR24blcdEGU-04)
-[part3](https://onedrive.live.com/download?cid=33A1ED4EC8B18772&resid=33A1ED4EC8B18772%2169241&authkey=ABn_L-e7T_KVtr8)
+- UCF101 RGB: [part1](http://ftp.tugraz.at/pub/feichtenhofer/tsfusion/ucf101_jpegs_256.zip.001)
+[part2](http://ftp.tugraz.at/pub/feichtenhofer/tsfusion/ucf101_jpegs_256.zip.002)
+[part3](http://ftp.tugraz.at/pub/feichtenhofer/tsfusion/ucf101_jpegs_256.zip.003)
 
-- UCF101 Flow: [part1](https://onedrive.live.com/download?cid=33A1ED4EC8B18772&resid=33A1ED4EC8B18772%2169013&authkey=AElrxCihZbbDtxs)
-[part2](https://onedrive.live.com/download?cid=33A1ED4EC8B18772&resid=33A1ED4EC8B18772%2169236&authkey=AGtu4tECnWiDwiE)
-[part3](<https://onedrive.live.com/download?cid=33A1ED4EC8B18772&resid=33A1ED4EC8B18772%2168909&authkey=AAUtcU2BYW1_ghk)
+- UCF101 Flow: [part1](http://ftp.tugraz.at/pub/feichtenhofer/tsfusion/ucf101_tvl1_flow.zip.001)
+[part2](http://ftp.tugraz.at/pub/feichtenhofer/tsfusion/ucf101_tvl1_flow.zip.002)
+[part3](http://ftp.tugraz.at/pub/feichtenhofer/tsfusion/ucf101_tvl1_flow.zip.003)
 
 # Use it on your own dataset
 - Our [Optical flow extraction tool](https://github.com/feichtenhofer/gpu_flow) provides OpenCV wrappers for optical flow extraction on a GPU.
