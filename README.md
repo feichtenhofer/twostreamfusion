@@ -47,8 +47,8 @@ please follow the [installation](http://www.vlfeat.org/matconvnet/install/) inst
 - In case you encounter memory issues on your GPU, consider decreasing the ```cudnnWorkspaceLimit``` (512MB is default)
 
 # Pretrained models
-- Spatial network for UCF101 [(split1)](http://ftp.tugraz.at/pub/feichtenhofer/tsfusion/models_twostream/ucf101-img-vgg16-split1-dr0.85.mat)
-- Temporal network for UCF101 [(split1)](http://ftp.tugraz.at/pub/feichtenhofer/tsfusion/models_twostream/ucf101-TVL1flow-vgg16-split1-dr0.9.mat)
+- Spatial network for UCF101 [(split1)](http://ftp.tugraz.at/pub/feichtenhofer/tsfusion/models/twostream_base/ucf101-img-vgg16-split1-dr0.85.mat)
+- Temporal network for UCF101 [(split1)](http://ftp.tugraz.at/pub/feichtenhofer/tsfusion/models/twostream_base/ucf101-TVL1flow-vgg16-split1-dr0.9.mat)
 
 # Data
 Pre-computed optical flow images and resized rgb frames for the [UCF101](http://crcv.ucf.edu/data/UCF101.php) and [HMDB51](http://serre-lab.clps.brown.edu/resource/hmdb-a-large-human-motion-database/) datasets
