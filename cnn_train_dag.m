@@ -94,6 +94,15 @@ for epoch=start+1:opts.numEpochs
   state.train = opts.train(randperm(numel(opts.train))) ; % shuffle
   state.val = opts.val ;
   state.imdb = imdb ;
+  if iscell(opts.backpropDepth)
+    if epoch <= numel(opts.backpropDepth)
+      state.backpropDepth = opts.backpropDepth{epoch};
+    else
+      state.backpropDepth = [];
+    end
+  else
+    state.backpropDepth = opts.backpropDepth;
+  end
 
   if numGpus <= 1
     s_train = process_epoch(net, state, opts, 'train');
@@ -195,7 +204,7 @@ stats.num = 0 ;
 stats.scores = [] ;
 stats2.err1 = 0;
 stats2.err5 = 0;
-net.backpropDepth = opts.backpropDepth;
+net.backpropDepth = state.backpropDepth;
 
 
 if ~isempty(opts.cudnnWorkspaceLimit)
