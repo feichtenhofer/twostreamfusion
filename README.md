@@ -65,5 +65,8 @@ Pre-computed optical flow images and resized rgb frames for the [UCF101](http://
 [part2](http://ftp.tugraz.at/pub/feichtenhofer/tsfusion/data/ucf101_tvl1_flow.zip.002)
 [part3](http://ftp.tugraz.at/pub/feichtenhofer/tsfusion/data/ucf101_tvl1_flow.zip.003)
 
+- HMDB51 RGB: [part1](http://ftp.tugraz.at/pub/feichtenhofer/tsfusion/data/hmdb51_jpegs256.zip)
+- HMDB51 Flow: [part1](http://ftp.tugraz.at/pub/feichtenhofer/tsfusion/data/hmdb51_tvl1_flow.zip)
+
 # Use it on your own dataset
 - Our [Optical flow extraction tool](https://github.com/feichtenhofer/gpu_flow) provides OpenCV wrappers for optical flow extraction on a GPU.
