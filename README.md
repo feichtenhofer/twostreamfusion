@@ -37,7 +37,7 @@ If you have questions regarding the implementation please contact:
 please follow the [installation](http://www.vlfeat.org/matconvnet/install/) instructions on the
  MatConvNet [homepage](http://www.vlfeat.org/matconvnet).
 
-3. Edit the file cnn_setup_environment.m to adjust the models and data paths.
+3. Edit the file `cnn_setup_environment.m` to adjust the models and data paths.
 
 4. Download pretrained model files and the datasets, linked below and unpack them into your models/data directory.
 * Optionally you can pretrain your own twostream models by running
